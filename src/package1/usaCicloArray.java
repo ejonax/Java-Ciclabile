@@ -6,7 +6,7 @@ public class usaCicloArray {
         int[] ciclo = {1,2,3,4,5};
 
         CicloArray cicloArray=new CicloArray(ciclo);
-        int i = 0;
+       // int i = 0;
 
          //cicloArray.getElementoSuccessivo(); 
         System.out.println(cicloArray.hasAncoraElementi());//T or F
@@ -17,6 +17,10 @@ public class usaCicloArray {
         System.out.println(cicloArray.getElementoSuccessivo());
 
        // cicloArray.getElementoSuccessivo();
+        System.out.println(cicloArray.hasAncoraElementi());
+        System.out.println(cicloArray.getElementoSuccessivo());
+
+        //cicloArray.getElementoSuccessivo();
         System.out.println(cicloArray.hasAncoraElementi());
         System.out.println(cicloArray.getElementoSuccessivo());
 

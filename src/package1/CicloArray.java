@@ -11,7 +11,11 @@ public class CicloArray {
     }
 
     public boolean hasAncoraElementi() {
-        return index<array.length;
+        if  ( index<array.length){
+            return true;
+        } else{
+            return false;
+        }
     }
 
     public int getElementoSuccessivo(){
