@@ -1,0 +1,3 @@
+.DS_Store
+.vscode/settings.json
+bin/package1/*.class
